@@ -6,7 +6,7 @@ Updated 05MAY2020
 In this folder you'll find executable C# code (and source files) to pipe ETS2 telemetry (odometer value) from 
 ETS2 out through the COM3 serial port of your local machine; together with an Arduino sketch for reading 
 incoming serial data and printing it to an LCD screen (in this case Velleman LCD1602 shield, but any screen 
-should work as long as it using the Arduino's main LCD library - <LiquidCrystal.h>
+should work as long as it using the Arduino's main LCD library - <LiquidCrystal.h>)
 
 INSTRUCTIONS
 ------------
