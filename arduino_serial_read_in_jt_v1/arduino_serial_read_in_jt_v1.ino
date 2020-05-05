@@ -44,6 +44,11 @@ int charsReceived;
   {
     charsReceived = Serial.readBytesUntil('\n', inputBuffer, sizeof(inputBuffer) - 1);  // Save room for NULL
     inputBuffer[charsReceived] = NULL;      // Make it a string
+   
+// useful to leave s/prints in for testing serial connection from IDE serial monitor to Ardunio UNO
+// but prob want to comment out (turn off) when using ETS2
+// sketch still works with them in though :)
+
     Serial.print("there were ");
     Serial.print(charsReceived);
     Serial.print(" chars received, which are: ");
