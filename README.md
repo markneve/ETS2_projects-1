@@ -2,7 +2,7 @@
 Code and instructions for piping EuroTruck Simulator 2 (ETS2) telemetry to an Arduino board
 
 Updated 05MAY2020
-=================
+-----------------
 In this folder you'll find executable C# code (and source files) to pipe ETS2 telemetry (odometer value) from 
 ETS2 out through the COM3 serial port of your local machine; together with an Arduino sketch for reading 
 incoming serial data and printing it to an LCD screen (in this case Velleman LCD1602 shield, but any screen 
@@ -34,3 +34,9 @@ And run the .exe file tucked away in the bin\Debug folder -
 C:\Users\james\source\repos\Serial_write_from_ETS2_odom_whileloop_jt_v2\Serial_write_from_ETS2_odom_whileloop_jt_v2\bin\Debug
 
 Boa sorte!
+
+![Pic of controller and LCD screen](https://github.com/JT-CH/ETS2_projects/blob/master/arduino_serial_read_in_jt_v1/LCD_screen_and_xbox_one_controller_500px.jpg)
+
+![Screengrab from game](https://github.com/JT-CH/ETS2_projects/blob/master/arduino_serial_read_in_jt_v1/136490_cab_odom_500px.jpg)
+
+![zoom in on dial](https://github.com/JT-CH/ETS2_projects/blob/master/arduino_serial_read_in_jt_v1/dial_350px.png)
